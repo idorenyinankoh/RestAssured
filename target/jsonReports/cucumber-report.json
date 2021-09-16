@@ -1,0 +1,766 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-09-16T15:18:12.039Z",
+        "line": 14,
+        "name": "Validate that user can send AddPlace successfully",
+        "description": "",
+        "id": "validate-addplace-api;validate-that-user-can-send-addplace-successfully;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3010001800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User has API endpoint \"Gwen\" \"Ibibio\" \"Ikorodu\" \"http://gwen.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Gwen\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"Ibibio\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"Ikorodu\"",
+                  "offset": 38
+                },
+                {
+                  "val": "\"http://gwen.com\"",
+                  "offset": 48
+                }
+              ],
+              "location": "stepDefinition.AddPlaceStep.user_has_api_endpoint(java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2401222600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user sends \"AddPlaceAPI\" http \"post\" request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"AddPlaceAPI\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"post\"",
+                  "offset": 30
+                }
+              ],
+              "location": "stepDefinition.AddPlaceStep.user_sends_http_request(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1131999000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "\"status\" contains in it response \"OK\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"status\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"OK\"",
+                  "offset": 33
+                }
+              ],
+              "location": "stepDefinition.AddPlaceStep.contains_in_it_response(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 71999100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "\"scope\" contains in it response \"APP\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"scope\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"APP\"",
+                  "offset": 32
+                }
+              ],
+              "location": "stepDefinition.AddPlaceStep.contains_in_it_response(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 661132200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "zensure that the result of the place_id, the \"Gwen\"  is equal to the name from \"GetPlaceAPI\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Gwen\"",
+                  "offset": 45
+                },
+                {
+                  "val": "\"GetPlaceAPI\"",
+                  "offset": 79
+                }
+              ],
+              "location": "stepDefinition.AddPlaceStep.ensure_that_the_result_of_the_place_id_the_is_equal_to_the_name_from(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AddPlace"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-16T15:18:19.443Z",
+        "line": 15,
+        "name": "Validate that user can send AddPlace successfully",
+        "description": "",
+        "id": "validate-addplace-api;validate-that-user-can-send-addplace-successfully;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8997400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User has API endpoint \"Ankoh\" \"Anan\" \"Yaba\" \"http://iankoh.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Ankoh\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"Anan\"",
+                  "offset": 30
+                },
+                {
+                  "val": "\"Yaba\"",
+                  "offset": 37
+                },
+                {
+                  "val": "\"http://iankoh.com\"",
+                  "offset": 44
+                }
+              ],
+              "location": "stepDefinition.AddPlaceStep.user_has_api_endpoint(java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 533833600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user sends \"AddPlaceAPI\" http \"post\" request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"AddPlaceAPI\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"post\"",
+                  "offset": 30
+                }
+              ],
+              "location": "stepDefinition.AddPlaceStep.user_sends_http_request(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 51000600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "\"status\" contains in it response \"OK\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"status\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"OK\"",
+                  "offset": 33
+                }
+              ],
+              "location": "stepDefinition.AddPlaceStep.contains_in_it_response(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 51001900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "\"scope\" contains in it response \"APP\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"scope\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"APP\"",
+                  "offset": 32
+                }
+              ],
+              "location": "stepDefinition.AddPlaceStep.contains_in_it_response(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 645066700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "zensure that the result of the place_id, the \"Ankoh\"  is equal to the name from \"GetPlaceAPI\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Ankoh\"",
+                  "offset": 45
+                },
+                {
+                  "val": "\"GetPlaceAPI\"",
+                  "offset": 80
+                }
+              ],
+              "location": "stepDefinition.AddPlaceStep.ensure_that_the_result_of_the_place_id_the_is_equal_to_the_name_from(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AddPlace"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-16T15:18:20.742Z",
+        "line": 16,
+        "name": "Validate that user can send AddPlace successfully",
+        "description": "",
+        "id": "validate-addplace-api;validate-that-user-can-send-addplace-successfully;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5946900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User has API endpoint \"Paul\" \"Yoruba\" \"Ikotun\" \"http://paulsure.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Paul\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"Yoruba\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"Ikotun\"",
+                  "offset": 38
+                },
+                {
+                  "val": "\"http://paulsure.com\"",
+                  "offset": 47
+                }
+              ],
+              "location": "stepDefinition.AddPlaceStep.user_has_api_endpoint(java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 495522000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user sends \"AddPlaceAPI\" http \"post\" request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"AddPlaceAPI\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"post\"",
+                  "offset": 30
+                }
+              ],
+              "location": "stepDefinition.AddPlaceStep.user_sends_http_request(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 73994100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "\"status\" contains in it response \"OK\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"status\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"OK\"",
+                  "offset": 33
+                }
+              ],
+              "location": "stepDefinition.AddPlaceStep.contains_in_it_response(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 56999700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "\"scope\" contains in it response \"APP\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"scope\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"APP\"",
+                  "offset": 32
+                }
+              ],
+              "location": "stepDefinition.AddPlaceStep.contains_in_it_response(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 559528900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "zensure that the result of the place_id, the \"Paul\"  is equal to the name from \"GetPlaceAPI\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Paul\"",
+                  "offset": 45
+                },
+                {
+                  "val": "\"GetPlaceAPI\"",
+                  "offset": 79
+                }
+              ],
+              "location": "stepDefinition.AddPlaceStep.ensure_that_the_result_of_the_place_id_the_is_equal_to_the_name_from(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AddPlace"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-16T15:18:21.944Z",
+        "line": 17,
+        "name": "Validate that user can send AddPlace successfully",
+        "description": "",
+        "id": "validate-addplace-api;validate-that-user-can-send-addplace-successfully;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6006200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User has API endpoint \"Busola\" \"Java\" \"Ogba\" \"http://bussbuss.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Busola\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"Java\"",
+                  "offset": 31
+                },
+                {
+                  "val": "\"Ogba\"",
+                  "offset": 38
+                },
+                {
+                  "val": "\"http://bussbuss.com\"",
+                  "offset": 45
+                }
+              ],
+              "location": "stepDefinition.AddPlaceStep.user_has_api_endpoint(java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 533775200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user sends \"AddPlaceAPI\" http \"post\" request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"AddPlaceAPI\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"post\"",
+                  "offset": 30
+                }
+              ],
+              "location": "stepDefinition.AddPlaceStep.user_sends_http_request(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 59976100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "\"status\" contains in it response \"OK\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"status\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"OK\"",
+                  "offset": 33
+                }
+              ],
+              "location": "stepDefinition.AddPlaceStep.contains_in_it_response(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 50004000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "\"scope\" contains in it response \"APP\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"scope\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"APP\"",
+                  "offset": 32
+                }
+              ],
+              "location": "stepDefinition.AddPlaceStep.contains_in_it_response(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 591976300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "zensure that the result of the place_id, the \"Busola\"  is equal to the name from \"GetPlaceAPI\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Busola\"",
+                  "offset": 45
+                },
+                {
+                  "val": "\"GetPlaceAPI\"",
+                  "offset": 81
+                }
+              ],
+              "location": "stepDefinition.AddPlaceStep.ensure_that_the_result_of_the_place_id_the_is_equal_to_the_name_from(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AddPlace"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-16T15:18:23.191Z",
+        "line": 18,
+        "name": "Validate that user can send AddPlace successfully",
+        "description": "",
+        "id": "validate-addplace-api;validate-that-user-can-send-addplace-successfully;;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5994900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User has API endpoint \"Kenny\" \"Js\" \"Magodo\" \"http://kennymoney.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Kenny\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"Js\"",
+                  "offset": 30
+                },
+                {
+                  "val": "\"Magodo\"",
+                  "offset": 35
+                },
+                {
+                  "val": "\"http://kennymoney.com\"",
+                  "offset": 44
+                }
+              ],
+              "location": "stepDefinition.AddPlaceStep.user_has_api_endpoint(java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 497794900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user sends \"AddPlaceAPI\" http \"post\" request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"AddPlaceAPI\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"post\"",
+                  "offset": 30
+                }
+              ],
+              "location": "stepDefinition.AddPlaceStep.user_sends_http_request(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 68997200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "\"status\" contains in it response \"OK\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"status\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"OK\"",
+                  "offset": 33
+                }
+              ],
+              "location": "stepDefinition.AddPlaceStep.contains_in_it_response(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 56995400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "\"scope\" contains in it response \"APP\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"scope\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"APP\"",
+                  "offset": 32
+                }
+              ],
+              "location": "stepDefinition.AddPlaceStep.contains_in_it_response(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 591027000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "zensure that the result of the place_id, the \"Kenny\"  is equal to the name from \"GetPlaceAPI\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Kenny\"",
+                  "offset": 45
+                },
+                {
+                  "val": "\"GetPlaceAPI\"",
+                  "offset": 80
+                }
+              ],
+              "location": "stepDefinition.AddPlaceStep.ensure_that_the_result_of_the_place_id_the_is_equal_to_the_name_from(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AddPlace"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-16T15:18:24.416Z",
+        "line": 21,
+        "name": "Validate that user can Delete",
+        "description": "",
+        "id": "validate-addplace-api;validate-that-user-can-delete",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1005400,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User has API endpoint",
+            "match": {
+              "location": "stepDefinition.AddPlaceStep.user_has_api_endpoint()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 528245300,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user sends \"DeletePlaceAPI\" http \"delete\" request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"DeletePlaceAPI\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"delete\"",
+                  "offset": 33
+                }
+              ],
+              "location": "stepDefinition.AddPlaceStep.user_sends_http_request(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "validate that status code is ok",
+            "match": {
+              "location": "stepDefinition.AddPlaceStep.validate_that_status_code_is_ok()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 23001300,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "\"status\" is \"OK\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"status\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"OK\"",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDefinition.AddPlaceStep.is(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@DeletePLace"
+          }
+        ]
+      }
+    ],
+    "name": "Validate AddPlace API",
+    "description": "",
+    "id": "validate-addplace-api",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/AddPlaces.feature",
+    "tags": []
+  }
+]

@@ -1,0 +1,455 @@
+Request method:	POST
+Request URI:	http://216.10.245.166/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": 50,
+    "name": "Gwen",
+    "phone_number": "08408048541",
+    "address": "Ikorodu",
+    "website": "http://gwen.com",
+    "language": "Ibibio",
+    "location": {
+        "lng": 32.342211,
+        "lat": -34.2343
+    },
+    "types": [
+        "nike park",
+        "ysl shirt"
+    ]
+}
+HTTP/1.1 200 OK
+Date: Thu, 16 Sep 2021 15:18:17 GMT
+Server: Apache
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "fa4b863dfb5e9564f6070f443c64e1c3",
+    "scope": "APP",
+    "reference": "72b9568f75c040c50aa9c90f80b89d7472b9568f75c040c50aa9c90f80b89d74",
+    "id": "72b9568f75c040c50aa9c90f80b89d74"
+}
+Request method:	GET
+Request URI:	http://216.10.245.166/maps/api/place/get/json?key=qaclick123&place_id=fa4b863dfb5e9564f6070f443c64e1c3
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=fa4b863dfb5e9564f6070f443c64e1c3
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Thu, 16 Sep 2021 15:18:19 GMT
+Server: Apache
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "-34.2343",
+        "longitude": "32.342211"
+    },
+    "accuracy": "50",
+    "name": "Gwen",
+    "phone_number": "08408048541",
+    "address": "Ikorodu",
+    "types": "nike park,ysl shirt",
+    "website": "http://gwen.com",
+    "language": "Ibibio"
+}
+Request method:	POST
+Request URI:	http://216.10.245.166/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": 50,
+    "name": "Ankoh",
+    "phone_number": "08408048541",
+    "address": "Yaba",
+    "website": "http://iankoh.com",
+    "language": "Anan",
+    "location": {
+        "lng": 32.342211,
+        "lat": -34.2343
+    },
+    "types": [
+        "nike park",
+        "ysl shirt"
+    ]
+}
+HTTP/1.1 200 OK
+Date: Thu, 16 Sep 2021 15:18:19 GMT
+Server: Apache
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "39fb7ecf17951776a59468c6d501cc1d",
+    "scope": "APP",
+    "reference": "e171e54d841664d0bfc58af8d63a5c39e171e54d841664d0bfc58af8d63a5c39",
+    "id": "e171e54d841664d0bfc58af8d63a5c39"
+}
+Request method:	GET
+Request URI:	http://216.10.245.166/maps/api/place/get/json?key=qaclick123&place_id=39fb7ecf17951776a59468c6d501cc1d
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=39fb7ecf17951776a59468c6d501cc1d
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Thu, 16 Sep 2021 15:18:20 GMT
+Server: Apache
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "-34.2343",
+        "longitude": "32.342211"
+    },
+    "accuracy": "50",
+    "name": "Ankoh",
+    "phone_number": "08408048541",
+    "address": "Yaba",
+    "types": "nike park,ysl shirt",
+    "website": "http://iankoh.com",
+    "language": "Anan"
+}
+Request method:	POST
+Request URI:	http://216.10.245.166/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": 50,
+    "name": "Paul",
+    "phone_number": "08408048541",
+    "address": "Ikotun",
+    "website": "http://paulsure.com",
+    "language": "Yoruba",
+    "location": {
+        "lng": 32.342211,
+        "lat": -34.2343
+    },
+    "types": [
+        "nike park",
+        "ysl shirt"
+    ]
+}
+HTTP/1.1 200 OK
+Date: Thu, 16 Sep 2021 15:18:21 GMT
+Server: Apache
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "b10bd486514d6c30d78447db6aca4ab7",
+    "scope": "APP",
+    "reference": "bd16d879491a6a6f5598dd6f939ebbbfbd16d879491a6a6f5598dd6f939ebbbf",
+    "id": "bd16d879491a6a6f5598dd6f939ebbbf"
+}
+Request method:	GET
+Request URI:	http://216.10.245.166/maps/api/place/get/json?key=qaclick123&place_id=b10bd486514d6c30d78447db6aca4ab7
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=b10bd486514d6c30d78447db6aca4ab7
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Thu, 16 Sep 2021 15:18:21 GMT
+Server: Apache
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "-34.2343",
+        "longitude": "32.342211"
+    },
+    "accuracy": "50",
+    "name": "Paul",
+    "phone_number": "08408048541",
+    "address": "Ikotun",
+    "types": "nike park,ysl shirt",
+    "website": "http://paulsure.com",
+    "language": "Yoruba"
+}
+Request method:	POST
+Request URI:	http://216.10.245.166/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": 50,
+    "name": "Busola",
+    "phone_number": "08408048541",
+    "address": "Ogba",
+    "website": "http://bussbuss.com",
+    "language": "Java",
+    "location": {
+        "lng": 32.342211,
+        "lat": -34.2343
+    },
+    "types": [
+        "nike park",
+        "ysl shirt"
+    ]
+}
+HTTP/1.1 200 OK
+Date: Thu, 16 Sep 2021 15:18:22 GMT
+Server: Apache
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "de30394585dcc8747a44e5a1daace832",
+    "scope": "APP",
+    "reference": "0f1fb99ac0528a93d22262e1ae3972700f1fb99ac0528a93d22262e1ae397270",
+    "id": "0f1fb99ac0528a93d22262e1ae397270"
+}
+Request method:	GET
+Request URI:	http://216.10.245.166/maps/api/place/get/json?key=qaclick123&place_id=de30394585dcc8747a44e5a1daace832
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=de30394585dcc8747a44e5a1daace832
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Thu, 16 Sep 2021 15:18:22 GMT
+Server: Apache
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "-34.2343",
+        "longitude": "32.342211"
+    },
+    "accuracy": "50",
+    "name": "Busola",
+    "phone_number": "08408048541",
+    "address": "Ogba",
+    "types": "nike park,ysl shirt",
+    "website": "http://bussbuss.com",
+    "language": "Java"
+}
+Request method:	POST
+Request URI:	http://216.10.245.166/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": 50,
+    "name": "Kenny",
+    "phone_number": "08408048541",
+    "address": "Magodo",
+    "website": "http://kennymoney.com",
+    "language": "Js",
+    "location": {
+        "lng": 32.342211,
+        "lat": -34.2343
+    },
+    "types": [
+        "nike park",
+        "ysl shirt"
+    ]
+}
+HTTP/1.1 200 OK
+Date: Thu, 16 Sep 2021 15:18:23 GMT
+Server: Apache
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "2f35ff627e5db1d68bf8f140b7ee5e19",
+    "scope": "APP",
+    "reference": "7f83773e9b5da452dff06a10653435f47f83773e9b5da452dff06a10653435f4",
+    "id": "7f83773e9b5da452dff06a10653435f4"
+}
+Request method:	GET
+Request URI:	http://216.10.245.166/maps/api/place/get/json?key=qaclick123&place_id=2f35ff627e5db1d68bf8f140b7ee5e19
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=2f35ff627e5db1d68bf8f140b7ee5e19
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Thu, 16 Sep 2021 15:18:24 GMT
+Server: Apache
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "-34.2343",
+        "longitude": "32.342211"
+    },
+    "accuracy": "50",
+    "name": "Kenny",
+    "phone_number": "08408048541",
+    "address": "Magodo",
+    "types": "nike park,ysl shirt",
+    "website": "http://kennymoney.com",
+    "language": "Js"
+}
+Request method:	DELETE
+Request URI:	http://216.10.245.166/maps/api/place/delete/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "place_id": "2f35ff627e5db1d68bf8f140b7ee5e19"
+}
+HTTP/1.1 200 OK
+Date: Thu, 16 Sep 2021 15:18:24 GMT
+Server: Apache
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK"
+}
